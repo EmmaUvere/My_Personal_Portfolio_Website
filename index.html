@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/my_logo.png" alt="my_logo" id="logo" />
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Hello</h1>
+        <h1>I'm Emmanuel Uvere</h1>
+      </section>
+      <section id="about">
+        <h3>About Me</h3>
+        <p>I am a web developer.</p>
+        <p>
+          I dedicate my time to make certain style and outstanding visual
+          layout.
+        </p>
+      </section>
+
+      <article>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="project-container">
+            <div class="project-card">
+              <h3>Web Design</h3>
+              <p>A complete website built using HTML & CSS.</p>
+            </div>
+            <div class="project-card">
+              <h3>To-Do List</h3>
+              <p>
+                A task management app where users can add, mark complete, and
+                delete tasks. Built using HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+          <h2>Send a Message</h2>
+          <form>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Emmanuel Uvere's Portfolio Website</p>
+    </footer>
+  </body>
+</html>
